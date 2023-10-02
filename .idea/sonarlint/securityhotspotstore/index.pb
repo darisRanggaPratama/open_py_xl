@@ -5,3 +5,7 @@
 basic/read_xl.py,1\7\17c0941e2210e30b61c27d7fffd9b0c79acb9bd0
 B
 basic/read_cell.py,d\4\d488080033901db0da2ec31b36a3d4dd138b47ce
+C
+basic/read_range.py,4\c\4c5d6792bf7ebf54a7445bbb15d6b83f9761edca
+D
+basic/read_range2.py,c\d\cd521de80310b40c649ef304642d271289611d28
