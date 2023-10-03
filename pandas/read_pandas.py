@@ -2,7 +2,17 @@ import pandas as pd
 import numpy as np
 
 # Baca file Excel
-df = pd.read_excel("sample.xlsx", sheet_name="GAJI", usecols="A:E")
+path = input('Negative Values in Worksheet\nFile Name: ')
+
+worksheet = pd.ExcelFile(path)
+sheetName = worksheet.sheet_names
+print("Available Worksheet(s): ")
+for name in sheetName:
+    print(f'  {name}')
+
+wsheet = input('Get 1 Worksheet: ')
+
+df = pd.read_excel(path, sheet_name=wsheet, usecols="A:E")
 
 # Inisialisasi variabel untuk menyimpan hasil pencarian
 hasil_pencarian = []
@@ -17,10 +27,10 @@ for index, row in df.iterrows():
                 hasil_pencarian.append((alamat, value))
 
 # Cetak hasil pencarian
-print("Hasil pencarian angka Decimal/Float/Double:\n\nNo Clm Row Value")
+print("Hasil pencarian angka Decimal/Float/Double:\n\n No Clm Row Value")
 x = 0
 for alamat, nilai in hasil_pencarian:
     x = x + 1
     kolom = alamat[0]
     baris = alamat[1]
-    print(f"{x}   {kolom}  {baris}: {nilai}")
+    print(f" {x}   {kolom}  {baris}: {nilai}")
