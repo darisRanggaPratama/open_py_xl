@@ -9,8 +9,6 @@ D
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 B
 basic/read_cell.py,d\4\d488080033901db0da2ec31b36a3d4dd138b47ce
-E
-pandas/read_pandas.py,5\d\5dfc01a314c4cce81053c33128dd1e2469828d86
 @
 pandas/pd_NaN.py,4\9\49a1b077e66fa94a344d60c5e2619ee684932782
 A
@@ -19,3 +17,11 @@ E
 pandas/pd_negative.py,3\1\3144c4cf6e96787a6f4d712524899f0793201807
 D
 pandas/pd_decimal.py,4\1\415059d1321107439093991f063bb30723332cc9
+A
+pandas/pd_null.py,d\e\de9562912be0bc500cec9ea517cbf92a1600582a
+A
+pandas/pd_zero.py,a\2\a2a2b571c661a334ec94cddafa9f35a177caceb7
+D
+pandas/pd_not_NaN.py,d\0\d056dab319a42198e4b68e123a6c8f71db0c1585
+B
+pandas/pd_print.py,8\0\80f72d90eebb40744dc44c6ca635c184059ed52e

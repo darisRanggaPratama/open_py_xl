@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Baca file Excel
-path = input('NaN Values in Worksheet\nFile Name: ')
+path = input('Null Values in Worksheet\nFile Name: ')
 
 worksheet = pd.ExcelFile(path)
 sheetName = worksheet.sheet_names
@@ -21,11 +21,11 @@ for index, row in df.iterrows():
     for column, value in row.items():
         if isinstance(value, float):
             # Cek apakah nilai sel adalah angka desimal
-            if pd.isna(value):
+            if pd.isnull(value):
                 hasil_pencarian.append((df.columns.get_loc(column), index, value))
 
 # Cetak hasil pencarian
-print('Hasil pencarian NaN:\n\n No Row Clm Value')
+print('Hasil pencarian Null:\n\n No Row Clm Value')
 x = 0
 for kolom, baris, nilai in hasil_pencarian:
     x = x + 1

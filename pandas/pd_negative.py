@@ -1,10 +1,9 @@
-import numpy as np
 import pandas as pd
 
 # Baca file Excel
 path = input('Negative Values in Worksheet\nFile Name: ')
 
-worksheet = pd.ExcelFile('sample.xlsx')
+worksheet = pd.ExcelFile(path)
 sheetName = worksheet.sheet_names
 print("Available Worksheet(s): ")
 for name in sheetName:
@@ -12,7 +11,7 @@ for name in sheetName:
 
 wsheet = input('Get 1 Worksheet: ')
 
-df = pd.read_excel(path, sheet_name=wsheet, usecols='A:E')
+df = pd.read_excel(path, sheet_name=wsheet, usecols='A:F')
 
 # Inisialisasi variabel untuk menyimpan hasil pencarian
 hasil_pencarian = []
@@ -22,7 +21,7 @@ for index, row in df.iterrows():
     for column, value in row.items():
         if isinstance(value, float):
             # Cek apakah nilai sel adalah angka desimal
-            if value < 0 and not np.isnan(value):
+            if value < 0 and not pd.isna(value):
                 hasil_pencarian.append((df.columns.get_loc(column), index, value))
 
 # Cetak hasil pencarian
