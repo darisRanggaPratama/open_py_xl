@@ -11,3 +11,11 @@ B
 basic/read_cell.py,d\4\d488080033901db0da2ec31b36a3d4dd138b47ce
 E
 pandas/read_pandas.py,5\d\5dfc01a314c4cce81053c33128dd1e2469828d86
+@
+pandas/pd_NaN.py,4\9\49a1b077e66fa94a344d60c5e2619ee684932782
+A
+pandas/pd_Zero.py,0\3\03560fa8cfe050555aab4e0f1e3e6f364387c27a
+E
+pandas/pd_negative.py,3\1\3144c4cf6e96787a6f4d712524899f0793201807
+D
+pandas/pd_decimal.py,4\1\415059d1321107439093991f063bb30723332cc9
