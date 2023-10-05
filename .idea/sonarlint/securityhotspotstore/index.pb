@@ -19,3 +19,15 @@ D
 pandas/pd_not_NaN.py,d\0\d056dab319a42198e4b68e123a6c8f71db0c1585
 B
 pandas/pd_print.py,8\0\80f72d90eebb40744dc44c6ca635c184059ed52e
+C
+basic/read_range.py,4\c\4c5d6792bf7ebf54a7445bbb15d6b83f9761edca
+D
+basic/rg_negative.py,4\1\413469076f091a8fe035e051ec6382c7e5923142
+C
+basic/rg_decimal.py,5\0\50bef8b2cb83019d89b33b8c2d1859532e472881
+A
+basic/rg_error.py,8\3\838b8699ebf70f689309046c45c0e463030a2e5e
+A
+basic/rg_blank.py,a\6\a621d1bf7fdb77e7fea623d8bd1b4fee10b33da9
+@
+basic/rg_zero.py,e\4\e44bc88772c1eb8cd6d1f39a04e49241807803d6
