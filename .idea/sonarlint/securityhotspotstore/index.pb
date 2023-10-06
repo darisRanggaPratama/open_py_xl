@@ -1,8 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-D
-basic/read_range2.py,c\d\cd521de80310b40c649ef304642d271289611d28
 B
 basic/read_cell.py,d\4\d488080033901db0da2ec31b36a3d4dd138b47ce
 D
@@ -27,7 +25,11 @@ C
 basic/rg_decimal.py,5\0\50bef8b2cb83019d89b33b8c2d1859532e472881
 A
 basic/rg_error.py,8\3\838b8699ebf70f689309046c45c0e463030a2e5e
-A
-basic/rg_blank.py,a\6\a621d1bf7fdb77e7fea623d8bd1b4fee10b33da9
 @
 basic/rg_zero.py,e\4\e44bc88772c1eb8cd6d1f39a04e49241807803d6
+@
+basic/rg_null.py,a\7\a73cf13fadc721b9e3957a554a5a9f07a90d6364
+S
+#basic/crud_whseet/create_save_xl.py,b\8\b8d60393f93dfe17a908e85d494e530ff4d59009
+T
+$basic/crud_whseet/rg_decimal_toex.py,0\0\0028dc470bd475921d80dfac830239b78cc94848
