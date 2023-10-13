@@ -33,3 +33,15 @@ S
 #basic/crud_whseet/create_save_xl.py,b\8\b8d60393f93dfe17a908e85d494e530ff4d59009
 T
 $basic/crud_whseet/rg_decimal_toex.py,0\0\0028dc470bd475921d80dfac830239b78cc94848
+^
+.basic/crud_whseet/color/rg_decimal_clr_toex.py,2\6\26375002b3f97e14250ef0bd39afb904b2b1625e
+\
+,basic/crud_whseet/color/rg_error_clr_toex.py,0\3\037acbdfc019527d6ad17b6b60adefa4a73558ef
+_
+/basic/crud_whseet/color/rg_negative_clr_toex.py,4\f\4f2ae4986dee7a52991e75dc2f7bd7d2e6475017
+[
++basic/crud_whseet/color/rg_zero_clr_toex.py,0\5\05d738626750b2a87139156988afa7a130b1bb56
+[
++basic/crud_whseet/color/rg_null_clr_toex.py,9\b\9b4ce0489ad713798a4fcac55b75cf6813b87c75
+d
+4basic/crud_whseet/comment/rg_decimal_clr_cmt_toex.py,2\4\24e9356a6c7dedc867013d8a1026078b73ad4669
