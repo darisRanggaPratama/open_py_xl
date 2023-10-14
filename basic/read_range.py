@@ -1,7 +1,7 @@
 import openpyxl
 
 # Buka file Workbook
-workbook = openpyxl.load_workbook("sample.xlsx")
+workbook = openpyxl.load_workbook("run/sample.xlsx")
 
 # Pilih Worksheet "gaji"
 worksheet = workbook["GAJI"]

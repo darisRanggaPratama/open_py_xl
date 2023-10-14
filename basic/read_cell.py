@@ -1,7 +1,7 @@
 import openpyxl as oxl
 from openpyxl.utils import *
 
-wbook = oxl.load_workbook('sample.xlsx')
+wbook = oxl.load_workbook('run/sample.xlsx')
 print(type(wbook))
 print(wbook.sheetnames)
 wsheet = wbook['GAJI']

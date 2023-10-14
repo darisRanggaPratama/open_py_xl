@@ -27,6 +27,7 @@ A
 basic/rg_error.py,8\3\838b8699ebf70f689309046c45c0e463030a2e5e
 @
 basic/rg_zero.py,e\4\e44bc88772c1eb8cd6d1f39a04e49241807803d6
+<<<<<<< Updated upstream
 @
 basic/rg_null.py,a\7\a73cf13fadc721b9e3957a554a5a9f07a90d6364
 S
@@ -45,3 +46,21 @@ _
 +basic/crud_whseet/color/rg_null_clr_toex.py,9\b\9b4ce0489ad713798a4fcac55b75cf6813b87c75
 d
 4basic/crud_whseet/comment/rg_decimal_clr_cmt_toex.py,2\4\24e9356a6c7dedc867013d8a1026078b73ad4669
+=======
+D
+basic/run/rg_null.py,3\e\3ed136e85789f5074e755444e6fcddbcdfd10763
+G
+basic/run/rg_decimal.py,8\2\8225aaf08a97b6fac0676f6ed8a8ec14839a1b0f
+E
+basic/run/rg_error.py,d\3\d37ca1e9d82faeb318bdd7fb917ac4c52de6c4be
+H
+basic/run/rg_negative.py,6\5\65182cc951cdd575e82ae2f25e4e24adf97006b5
+D
+basic/run/rg_zero.py,f\4\f49f1096ac5fb1bbe6a798fe427730b428c01a79
+@
+basic/read_xl.py,1\7\17c0941e2210e30b61c27d7fffd9b0c79acb9bd0
+G
+basic/read_worksheet.py,8\a\8a71fb837d9184b6de9f677e1210015166f450c7
+C
+basic/census2010.py,9\0\90477988b7eb560b84f936d328f877a2091eaf7f
+>>>>>>> Stashed changes
