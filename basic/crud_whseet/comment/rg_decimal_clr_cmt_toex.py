@@ -17,8 +17,8 @@ result = []
 # Warna latar belakang
 colored = PatternFill(start_color='F9E79F', end_color='F9E79F', fill_type='solid')
 
-# Loop melalui sel di Worksheet target, misal dari A2 sampai F46
-for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
+# Loop melalui sel di Worksheet target, misal dari E4 sampai U1145
+for row in worksheet.iter_rows(min_row=4, max_row=1145, min_col=5, max_col=21):
     for cell in row:
         # Periksa apakah nilai sel adalah Decimal/Float/Double
         if isinstance(cell.value, float):
@@ -43,4 +43,4 @@ for i, (coordinate, value) in enumerate(result):
     sheetDec.cell(row=i + 2, column=2, value=f"{i + 1}; {coordinate}; {value}")
 
 # Simpan perubahan ke dalam file.xlsx
-workbook.save('sample.xlsx')
+workbook.save(path)

@@ -44,4 +44,4 @@ for i, (coordinate, value) in enumerate(result):
     sheetNul.cell(row=i + 2, column=2, value=f"{i + 1}; {coordinate}; {value}")
 
 # Simpan perubahan ke dalam file Excel: *.xlsx
-workbook.save('sample.xlsx')
+workbook.save(path)
