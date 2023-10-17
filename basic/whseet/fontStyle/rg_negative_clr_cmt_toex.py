@@ -1,5 +1,5 @@
 import openpyxl as pyxl
-from openpyxl.styles import PatternFill
+from openpyxl.styles import PatternFill, Font
 from openpyxl.comments import Comment
 
 # Buka file Excel: *.xlsx
@@ -17,6 +17,9 @@ result = []
 # Warna latar belakang
 colored = PatternFill(start_color='D2B4DE', end_color='D2B4DE', fill_type='solid')
 
+# Font italic
+italicFont = Font(italic=True)
+
 # Loop melalui sel di Worksheet target, misal dari A2 sampai F46
 for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
     for cell in row:
@@ -28,6 +31,7 @@ for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
                 commented = Comment(f"NEGATIVE\n{cell.coordinate}: {cell.value}", "Author")
                 cell.comment = None
                 cell.comment = commented
+                cell.font = italicFont
                 cell.fill = colored
                 # Tambahkan hasil ke list
                 result.append((cell.coordinate, cell.value))

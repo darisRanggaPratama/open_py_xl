@@ -1,6 +1,5 @@
 import openpyxl as pyxl
-from openpyxl.styles import PatternFill
-from openpyxl.styles import Font
+from openpyxl.styles import PatternFill, Font
 from openpyxl.comments import Comment
 
 # Buka file Excel: *.xlsx

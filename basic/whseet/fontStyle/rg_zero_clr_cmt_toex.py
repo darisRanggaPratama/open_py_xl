@@ -1,5 +1,5 @@
 import openpyxl as pyxl
-from openpyxl.styles import PatternFill
+from openpyxl.styles import PatternFill, Border, Side
 from openpyxl.comments import Comment
 
 # Buka file Excel: *.xlsx
@@ -17,6 +17,9 @@ result = []
 # Warna latar belakang
 colored = PatternFill(start_color='F5B7B1', end_color='F5B7B1', fill_type='solid')
 
+# Membuat border dengan garis tepi berwarna
+bordered = Border(left=Side(border_style="medium", color='E74C3C'), right=Side(border_style="medium", color='3498DB'), top=Side(border_style="medium", color='2ECC71'), bottom=Side(border_style="medium", color='F4D03F'))
+
 # Loop melalui sel di Worksheet target, misal dari A2 sampai F46
 for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
     for cell in row:
@@ -27,6 +30,7 @@ for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
                 cell.comment = None
                 cell.comment = commented
                 cell.fill = colored
+                cell.border = bordered
                 # Tambahkan hasil ke list
                 result.append((cell.coordinate, cell.value))
 

@@ -25,7 +25,7 @@ for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
             commented = Comment(f"NULL\n{cell.coordinate}: {cell.value}", "Author")
             cell.comment = None
             cell.comment = commented
-            cell.fill = colored
+            cell.fill = colored            
             # Tambahkan hasil ke list
             result.append((cell.coordinate, cell.value))
 
