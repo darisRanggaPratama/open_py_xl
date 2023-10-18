@@ -1,10 +1,10 @@
-import openpyxl as pyxl
+from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, Font
 from openpyxl.comments import Comment
 
 # Buka file Excel: *.xlsx
 path = input('String Values in Worksheet\nFile Name: ')
-workbook = pyxl.load_workbook(path)
+workbook = load_workbook(path)
 
 # Pilih worksheet tertentu
 print(f'Available Worksheet:\n{workbook.sheetnames}')
