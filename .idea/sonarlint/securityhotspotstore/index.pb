@@ -19,15 +19,7 @@ C
 basic/census2010.py,9\0\90477988b7eb560b84f936d328f877a2091eaf7f
 B
 basic/read_cell.py,d\4\d488080033901db0da2ec31b36a3d4dd138b47ce
-a
-1basic/crud_whseet/comment/rg_zero_clr_cmt_toex.py,6\2\627b21e721e6f7a78e1e4384c18011b399cf1729
-d
-4basic/crud_whseet/comment/rg_decimal_clr_cmt_toex.py,2\4\24e9356a6c7dedc867013d8a1026078b73ad4669
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 b
-2basic/crud_whseet/comment/rg_error_clr_cmt_toex.py,b\7\b7809522202bc9a9871ea7133ddf0b867dc2be7e
-e
-5basic/crud_whseet/comment/rg_negative_clr_cmt_toex.py,d\d\ddca08f8027e3e0c55a1f762b7ec7f897c97e9b7
-a
-1basic/crud_whseet/comment/rg_null_clr_cmt_toex.py,0\7\075a8ec8e73c38c4b1e2317a6a5b28a175058ebc
-c
-3basic/crud_whseet/comment/rg_string_clr_cmt_toex.py,d\d\ddd6ffdf36a083e5a282066d9b196c5c8622764c
+2basic/whseet/fontStyle/rg_negative_clr_cmt_toex.py,8\2\82dd09010b8dd1925286abf8554c633f38ae6912

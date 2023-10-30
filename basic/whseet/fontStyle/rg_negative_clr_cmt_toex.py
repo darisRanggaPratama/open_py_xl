@@ -20,8 +20,8 @@ colored = PatternFill(start_color='D2B4DE', end_color='D2B4DE', fill_type='solid
 # Font italic
 italicFont = Font(italic=True)
 
-# Loop melalui sel di Worksheet target, misal dari A2 sampai F46
-for row in worksheet.iter_rows(min_row=2, max_row=46, min_col=1, max_col=6):
+# Loop melalui sel di Worksheet target, misal dari A3 sampai E47
+for row in worksheet.iter_rows(min_row=3, max_row=47, min_col=1, max_col=5):
     for cell in row:
         # Periksa apakah nilai Negative
         if isinstance(cell.value, (int, float)):
